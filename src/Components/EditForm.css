@@ -1,0 +1,35 @@
+.edit-action-btn {
+    background-color: rgb(248, 181, 157);
+    border: none;
+    transition: ease 0.3s;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+
+.edit-action-btn:hover {
+    background-color: coral;
+}
+
+
+.edit-container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.edit-container span {
+    margin: 10px 0;
+}
+
+.confirm-btns {
+    margin: 7px 0;
+}
+
+.confirm-btns input {
+    height: 2rem;
+    width: 5rem;
+    font-weight: bold;
+    cursor: pointer;
+}

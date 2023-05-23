@@ -1,0 +1,18 @@
+.container {
+    margin: 12px;
+}
+
+.inner-container {
+    margin-top: 20px;
+    width: 50%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table * {
+    border: 1px solid rgba(119, 119, 119, 0.36);
+    padding-left: 5px;
+    padding-right: 30px;
+}

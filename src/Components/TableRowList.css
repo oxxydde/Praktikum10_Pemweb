@@ -1,0 +1,43 @@
+table td:last-child {
+    padding: 0;
+    align-items: center;
+}
+
+.add-action {
+    background-color: rgb(138, 242, 119);
+    font-size: 28px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.add-action:hover {
+    background-color: rgb(113, 183, 101);
+}
+
+.action-btn {
+    margin: 3px 3px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: #6241f2;
+}
+
+.edit-btn:hover {
+    background-color: #43348a;
+}
+
+.delete-btn {
+    background-color: #cf5221;
+}
+
+.delete-btn:hover {
+    background-color: #7e381c;
+}
